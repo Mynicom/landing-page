@@ -204,7 +204,7 @@ body {
 }
 
 .bg-fitur .fitur-desc p {
-  font-size: 20px;
+  font-size: 16px;
   /* line-height: 24px; */
   color: #686868;
   margin-bottom: 40px;
@@ -225,7 +225,7 @@ body {
 
 .bg-harga .container .card-body-harga{
   margin-top: 56px;
-  width: 50%;
+  width: 45%;
   padding: 30px 15px;
   background-color: #EBDFFF;
   border-radius: 29px;
@@ -234,10 +234,9 @@ body {
 }
 .bg-harga .container h1{
   text-align: center;
-  font-size: 35px;
+  font-size: 28px;
   color: #2A2833;
-  font-weight: 600;
-  line-height: 45px;
+  line-height: 40px;
 }
 
 .bg-harga .container p{
@@ -250,24 +249,32 @@ body {
   letter-spacing: 0.02em;
   color: #686868;
 }
-
+.bg-harga .container .card-body-harga h1{
+  font-size: 30px;
+  font-weight: 600;
+}
+.bg-harga .container .card-body-harga p{
+  font-size: 18px;
+  font-weight: 500;
+}
 .bg-harga .container .card-body-harga .harga{
   margin-left: 58px;
   margin-bottom: 20px;
 }
 .bg-harga .container .card-body-harga .harga h1{
-  font-size: 18px;
+  font-size: 20px;
+  margin-right: 4px;
   font-weight: 500;
 }
 .bg-harga .container .card-body-harga .harga b{
-  font-size: 50px;
+  font-size: 40px;
 }
 .bg-harga .container .card-body-harga .durasi{
   width: 77%;
   margin: auto;
 }
 .bg-harga .container .card-body-harga .durasi h1{
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   color: rgba(73, 70, 86, 1);
 }
@@ -283,6 +290,7 @@ body {
   margin:auto;
 }
 .slider{
+  margin-top: -10px;
   -webkit-appearance: none;
   width: 80%;
   height: 40px;
@@ -293,9 +301,9 @@ body {
 }
 .slider::-webkit-slider-thumb{
   -webkit-appearance: none;
-  width: 60px;
-  height: 60px;
-  border: 8px solid white;
+  width: 50px;
+  height: 50px;
+  border: 6px solid white;
   cursor: pointer;
   background-color: #673AB7;
   border-radius: 50%;
@@ -304,9 +312,9 @@ body {
 }
 .slider::-moz-range-thumb{
   -moz-appearance: none;
-  width: 60px;
-  height: 60px;
-  border: 8px solid white;
+  width: 50px;
+  height: 50px;
+  border: 6px solid white;
   cursor: pointer;
   background-color: #673AB7;
   border-radius: 50%;
@@ -314,7 +322,7 @@ body {
 }
 
 .bg-harga .keuntungan{
-  margin-top: 29px;
+  margin-top: 25px;
 }
 .bg-harga  ul {
   margin-left: 20px;
@@ -324,19 +332,19 @@ body {
 .bg-harga  ul li {
   margin: 0;
   list-style: none;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 500;
  
 }
 
 .bg-harga  ul li img {
   height: auto;
-  width: 45px;
+  width: 35px;
   
 }
 .bg-harga .btn-utama
 {
-  font-size: 20px;
+  font-size: 18px;
   width: 306px;
 }
 
@@ -519,7 +527,10 @@ body {
 .faq .judul{
   margin-bottom:76px;
 }
-
+.faq .card{
+  margin: auto;
+  width: 85%;
+}
 .faq .line {
   width: 190px;
   height: 8px;
