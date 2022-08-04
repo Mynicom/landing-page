@@ -224,9 +224,9 @@ body {
 }
 
 .bg-harga .container .card-body-harga{
-  margin-top: 56px;
-  width: 45%;
-  padding: 30px 15px;
+  margin-top: 40px;
+  width: 42%;
+  padding: 20px 15px;
   background-color: #EBDFFF;
   border-radius: 29px;
   box-shadow: 10px 20px 40px rgba(120, 120, 120, 0.25);
@@ -240,9 +240,9 @@ body {
 }
 
 .bg-harga .container p{
-  margin-top: 17px;
+  margin-top: 10px;
   margin-bottom: 22px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   line-height: 30px;
   font-weight: 500;
@@ -250,7 +250,7 @@ body {
   color: #686868;
 }
 .bg-harga .container .card-body-harga h1{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
 }
 .bg-harga .container .card-body-harga p{
@@ -258,7 +258,7 @@ body {
   font-weight: 500;
 }
 .bg-harga .container .card-body-harga .harga{
-  margin-left: 58px;
+  margin-left: 50px;
   margin-bottom: 20px;
 }
 .bg-harga .container .card-body-harga .harga h1{
@@ -274,7 +274,7 @@ body {
   margin: auto;
 }
 .bg-harga .container .card-body-harga .durasi h1{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   color: rgba(73, 70, 86, 1);
 }
@@ -293,7 +293,7 @@ body {
   margin-top: -10px;
   -webkit-appearance: none;
   width: 80%;
-  height: 40px;
+  height: 30px;
   border-radius: 24px;
   background: linear-gradient(90deg,rgba(255,255,255) 60%, rgba(255,255,255) 60%);
   outline: none;
@@ -301,9 +301,9 @@ body {
 }
 .slider::-webkit-slider-thumb{
   -webkit-appearance: none;
-  width: 50px;
-  height: 50px;
-  border: 6px solid white;
+  width: 40px;
+  height: 40px;
+  border: 4px solid white;
   cursor: pointer;
   background-color: #673AB7;
   border-radius: 50%;
@@ -312,9 +312,9 @@ body {
 }
 .slider::-moz-range-thumb{
   -moz-appearance: none;
-  width: 50px;
-  height: 50px;
-  border: 6px solid white;
+  width: 40px;
+  height: 40px;
+  border: 4px solid white;
   cursor: pointer;
   background-color: #673AB7;
   border-radius: 50%;
@@ -325,14 +325,14 @@ body {
   margin-top: 25px;
 }
 .bg-harga  ul {
-  margin-left: 20px;
+  margin-left: 10px;
   padding: 0;
 }
 
 .bg-harga  ul li {
   margin: 0;
   list-style: none;
-  font-size: 20px;
+  font-size: 16x;
   font-weight: 500;
  
 }
@@ -345,7 +345,7 @@ body {
 .bg-harga .btn-utama
 {
   font-size: 18px;
-  width: 306px;
+  width: 50%;
 }
 
 .bg-testi {
@@ -529,7 +529,7 @@ body {
 }
 .faq .card{
   margin: auto;
-  width: 85%;
+  width: 80%;
 }
 .faq .line {
   width: 190px;
@@ -549,7 +549,7 @@ body {
 }
 
 .faq .accordion-custom {
-  border-radius: 25px !important;
+  border-radius: 20px !important;
   border: 0px;
   /* box-shadow: 10px 20px 40px rgba(203, 203, 203, 0.25) */
   -webkit-box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, 0.20);
@@ -559,7 +559,7 @@ body {
 
 .faq .accordion-custom .card-header {
   background-color: #673ab7;
-  padding: 0.9em;
+  padding: 0.6em;
   border: 0px;
   
 }
@@ -568,15 +568,15 @@ body {
   color: white !important;
   text-decoration: none;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
 }
 
 .faq .card-body p{
   margin:0;
+  padding: 0px 20px;
   font-weight: 500;
-  font-size: 20px;
-  padding-left: 30px;
+  font-size: 16px;
 }
 
 .faq .card-body a{
