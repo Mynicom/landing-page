@@ -79,23 +79,18 @@ body {
 .bg-hero .hero-desc {
   min-height: 500px;
   letter-spacing: -0.02em;
+  padding-left: 6%;
 }
-
 .bg-hero .hero-desc h1 {
-  margin-left :69px;
   font-weight: 400;
   font-size: 36px;
   color: #673AB7;
 }
 
 .bg-hero .hero-desc p {
-  margin-left :69px;
   font-weight: 500;
   font-size: 16px;
   color: #673AB7;
-}
-.bg-hero .btn-utama{
-  margin-left :69px;
 }
 .bg-hero .hero-illust img {
   padding-left :70px;
@@ -142,10 +137,6 @@ body {
   text-align: center;
 }
 
-.bg-spec .card .card-body p{
-  height :100px;
-}
-
 .bg-spec .card .card-body .img-spec {
   width: 60%;
   margin-bottom: 10px;
@@ -170,9 +161,6 @@ body {
 }
 
 /* Fitur */
-.bg-fitur {
-  padding: 100px 0;
-}
 
 .bg-fitur .fitur-desc {
   letter-spacing: -0.02em;
@@ -220,13 +208,12 @@ body {
 
 /* harga*/
 .bg-harga{
-  margin-bottom: 120px;
+  margin: 120px 0px;
 }
-
+.bg-harga .card{
+  border: 0px;
+}
 .bg-harga .container .card-body-harga{
-  margin-top: 40px;
-  width: 42%;
-  padding: 20px 15px;
   background-color: #EBDFFF;
   border-radius: 29px;
   box-shadow: 10px 20px 40px rgba(120, 120, 120, 0.25);
@@ -240,8 +227,6 @@ body {
 }
 
 .bg-harga .container p{
-  margin-top: 10px;
-  margin-bottom: 22px;
   font-size: 18px;
   text-align: center;
   line-height: 30px;
@@ -249,29 +234,31 @@ body {
   letter-spacing: 0.02em;
   color: #686868;
 }
+.bg-harga .harga-durasi{
+ margin-left: 58px;
+}
 .bg-harga .container .card-body-harga h1{
   font-size: 25px;
   font-weight: 600;
 }
 .bg-harga .container .card-body-harga p{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
-.bg-harga .container .card-body-harga .harga{
-  margin-left: 50px;
-  margin-bottom: 20px;
-}
 .bg-harga .container .card-body-harga .harga h1{
+  margin-left: 15px;
   font-size: 20px;
   margin-right: 4px;
   font-weight: 500;
+  position: relative;
+  top:-10px;
 }
 .bg-harga .container .card-body-harga .harga b{
   font-size: 40px;
 }
 .bg-harga .container .card-body-harga .durasi{
   width: 77%;
-  margin: auto;
+  margin-left: 10px;
 }
 .bg-harga .container .card-body-harga .durasi h1{
   font-size: 18px;
@@ -551,7 +538,6 @@ body {
 .faq .accordion-custom {
   border-radius: 20px !important;
   border: 0px;
-  /* box-shadow: 10px 20px 40px rgba(203, 203, 203, 0.25) */
   -webkit-box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, 0.20);
   box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.15);
   
@@ -648,16 +634,47 @@ body {
 
 /* --- LANDING PAGE RESPONSIVE CSS --- */
 @media screen and (max-width: 991px) {
-  br {
-    display: none;
-  }
+  
   .bg-hero .hero-desc {
-    min-height: 350px;
+    min-height: 340px;
     margin-top: 70px;
   }
+  .bg-hero .hero-desc h1{
+    font-size: 28px;
+  }
   .bg-hero .hero-illust {
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
+    margin-left:auto;
+  }
+  .bg-hero .hero-illust img{
+    margin-left: 5px;
+    padding: 0;
+  }
+  .bg-spec h2{
+    font-size: 22px;
+  }
+  .bg-spec .card-body br{
+    display: none;
+  }
+  .bg-spec .card .card-body{
+    padding: 10px 20px;
+  }
+  .bg-fitur .fitur-desc .fitur-content {
+    padding-top: 0;
+    margin-left: 15px ;
+  }
+  .bg-fitur .fitur-desc .fitur-content br{
+    display: none;
+  }
+  .img-none{
+    display: none;
+  }
+  .img-sm{
+    width: 100%;
+  }
+  .bg-fitur .fitur-desc .fitur-content p{
+    margin-top: 20px;
+    text-align: start;
   }
   .bg-fitur .fitur-desc .line {
     margin: 0 auto !important;
@@ -689,9 +706,71 @@ body {
   }
   .bg-testi .testimoni .swiper-container .swiper-wrapper .swiper-slide .img-testi {
     margin-right: 0;
+    width: 41px;
+    height: 40px;
   }
   .bg-testi .testimoni .swiper-container .swiper-wrapper .swiper-slide .profil-testi {
     text-align: center;
+  }
+  .bg-harga .container .harga-durasi{
+    margin-left: 44px;
+  }
+  .bg-harga .container br{
+    display: none;
+  }
+  .bg-harga .container h1{
+    font-size: 22px;
+    margin-bottom: 2px;
+  }
+  .bg-harga .container p{
+    font-size: 14px;
+    padding: 0 20px;
+  }
+  .bg-harga .container .card-body-harga h1{
+    font-size: 22px;
+  }
+  .bg-harga .container .card-body-harga p{
+    font-size: 14px;
+  }
+  .bg-harga .container .card-body-harga .harga h1{
+    font-size: 14px;
+    position: relative;
+    top:-10px;
+  }
+  .bg-harga .container .card-body-harga .harga b{
+    font-size: 26px;
+  }
+  .bg-harga .container .card-body-harga .durasi{
+    width: 77%;
+  }
+  .bg-harga .container .card-body-harga .durasi h1{
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .bg-harga  ul li {
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    line-height: 24px;
+  }
+  .bg-harga  ul li img {
+    width: 25px;
+  }
+  .bg-harga .btn-utama
+  {
+    font-size: 12px;
+    width: 70%;
+  }
+  .bg-testi .testi-desc{
+    display: none;
+  }
+  .swiper-slide{
+    padding: 5px 10px !important;
+  }
+  .swiper-slide p{
+    font-size: 10px !important;
+  }
+  .swiper-slide span{
+    font-size: 10px !important;
   }
   .bg-tutor .video {
     position: relative;
@@ -705,8 +784,8 @@ body {
 }
 
 @media screen and (max-width: 575px) {
-  h1 {
-    font-size: 26px !important;
+  .bg-hero .hero-desc h1{
+    font-size: 28px;
   }
   .bg-tutor .video {
     margin: 50px 0;
