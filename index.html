@@ -166,7 +166,7 @@
                 <div class="row mb-4" data-aos="fade-right">
                     <div class="col-lg-6 ">
                         <div class="fitur-content ">
-                            <div class="line"></div>
+                            <div class="line "></div>
                                 <h1 class="">Tampilkan informasi usaha lebih ringkas</h1>
                                 <div class="d-lg-none img-sm ml-4">
                                     <img src="assets/images/illustrations/fitur1.png" alt="micro website wibinx">
@@ -526,9 +526,9 @@
                 <div class="card accordion-custom mb-4">
                     <div class="card-header" id="headingHubungi">
                         <h2 class="mb-0 pl-4">
-                            <button class="btn btn-link btn-block text-left collapsed d-flex justify-content-between" type="button"
+                            <button class="btn btn-link btn-block text-left collapsed d-flex justify-content-between btn-accordion" type="button"
                                 data-toggle="collapse" data-target="#collapseHubungi" aria-expanded="true"
-                                aria-controls="collapseHubungi">
+                                aria-controls="collapseBiaya">
                                 Bagaimana cara menghubungi Wibinx? <i class="fa" aria-hidden="true"></i>
                             </button>
                         </h2>
@@ -538,7 +538,6 @@
                         <div class="card-body">
                             <div class="d-flex flex-column ">
                                 <p style="color: #673AB7;">Kamu bisa hubungi kami di <a href="">Instagram</a> atau <a href="">Whatsapp.</a> </p>
-        
                             </div>
                         </div>
                     </div>
@@ -685,8 +684,13 @@
             }
         })
         $(".btn-accordion").click(function(event){
-            console.log($(this))
-                $(this).closest(".accordion-custom").toggleClass("mb-5") 
+            $(".accordion-custom").removeClass("mb-5")
+            let show = $(this).closest(".accordion-custom").find('.show')
+            console.log(show) 
+                if(show.length<1) {
+                    $(this).closest(".accordion-custom").addClass("mb-5")
+                }
+    
         })
     </script>
     <!-- Script anti inspect -->
