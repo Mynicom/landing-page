@@ -202,10 +202,6 @@ body {
   width: 95%;
 }
 
-.bg-fitur .fitur-illust img {
-  width: 100%;
-}
-
 /* harga*/
 .bg-harga{
   margin: 120px 0px;
@@ -392,7 +388,6 @@ body {
 .bg-testi .testimoni .swiper-container .swiper-wrapper .swiper-slide .img-testi {
   width: 50px;
   height: 50px;
-  background-color: grey;
   overflow: hidden;
   border-radius: 50px;
   float: left;
@@ -640,11 +635,11 @@ body {
     margin-top: 70px;
   }
   .bg-hero .hero-desc h1{
-    font-size: 28px;
+    font-size: 36px;
   }
   .bg-hero .hero-illust {
-    width: 100%;
-    margin-left:auto;
+    width: 90%;
+    margin:auto;
   }
   .bg-hero .hero-illust img{
     margin-left: 5px;
@@ -694,10 +689,6 @@ body {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .bg-fitur .fitur-illust {
-    width: 90%;
-    margin: 20px auto 0 auto;
-  }
   .bg-testi .testi-desc .line {
     margin: 0 auto !important;
   }
@@ -705,15 +696,77 @@ body {
     text-align: center;
   }
   .bg-testi .testimoni .swiper-container .swiper-wrapper .swiper-slide .img-testi {
-    margin-right: 0;
-    width: 41px;
-    height: 40px;
+    width: 37px;
+    height: 37px;
   }
-  .bg-testi .testimoni .swiper-container .swiper-wrapper .swiper-slide .profil-testi {
+  .swiper-container{
+    width: 60% !important;
+  }
+  .swiper-slide{
+    padding: 5px 15px !important;
+  }
+  .swiper-slide p{
+    font-size: 10px !important;
+  }
+  .swiper-slide span{
+    font-size: 10px !important;
+  }
+  .bg-tutor .video {
+    position: relative;
+  }
+  .bg-tutor .video .embd-video {
+    top: -50px;
+  }
+  .bg-tutor .card .card-body h2 {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .bg-testi .testi-desc{
+    display: none;
+  }
+  .faq .judul br{
+    display: none;
+  }
+  .faq .judul{
+    font-size: 22px ;
+  }
+  .faq .accordion-custom .card-header button {
+    font-size: 14px !important;
+  }
+  .faq .card-body p{
+    font-size: 14px;
+  }
+  .bg-hero .hero-illust {
+    width: 100% !important;
+    margin:auto;
+  }
+  .faq .card{
+    width: 100%;
+  }
+  .swiper-container{
+    width: 100% !important;
+  }
+  .bg-hero .hero-desc h1{
+    font-size: 28px;
+  }
+  .bg-tutor .video {
+    margin: 50px 0;
+  }
+  .bg-tutor .video .embd-video {
+    position: static !important;
+  }
+  .bg-tutor .video .bg-video {
+    display: none !important;
+  }
+  .bg-tutor .card .card-body h2 {
+    font-size: 22px !important;
+    line-height: normal;
     text-align: center;
   }
   .bg-harga .container .harga-durasi{
-    margin-left: 44px;
+    margin-left: 15% !important;
   }
   .bg-harga .container br{
     display: none;
@@ -759,47 +812,6 @@ body {
   {
     font-size: 12px;
     width: 70%;
-  }
-  .bg-testi .testi-desc{
-    display: none;
-  }
-  .swiper-slide{
-    padding: 5px 10px !important;
-  }
-  .swiper-slide p{
-    font-size: 10px !important;
-  }
-  .swiper-slide span{
-    font-size: 10px !important;
-  }
-  .bg-tutor .video {
-    position: relative;
-  }
-  .bg-tutor .video .embd-video {
-    top: -50px;
-  }
-  .bg-tutor .card .card-body h2 {
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (max-width: 575px) {
-  .bg-hero .hero-desc h1{
-    font-size: 28px;
-  }
-  .bg-tutor .video {
-    margin: 50px 0;
-  }
-  .bg-tutor .video .embd-video {
-    position: static !important;
-  }
-  .bg-tutor .video .bg-video {
-    display: none !important;
-  }
-  .bg-tutor .card .card-body h2 {
-    font-size: 22px !important;
-    line-height: normal;
-    text-align: center;
   }
 }
 
