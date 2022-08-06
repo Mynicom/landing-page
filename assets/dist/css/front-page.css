@@ -166,12 +166,6 @@ body {
   letter-spacing: -0.02em;
 }
 
-.bg-fitur .line {
-  width: 190px;
-  height: 8px;
-  background-color: #673AB7;
-  border-radius: 20px;
-}
 .bg-fitur .fitur-desc .fitur-content {
   padding-top: 90px;
 }
@@ -629,7 +623,9 @@ body {
 
 /* --- LANDING PAGE RESPONSIVE CSS --- */
 @media screen and (max-width: 991px) {
-  
+  .navbar .navbar-nav .nav-item .nav-link{
+    margin-left:5px;
+  }
   .bg-hero .hero-desc {
     min-height: 340px;
     margin-top: 70px;
@@ -654,6 +650,13 @@ body {
   .bg-spec .card .card-body{
     padding: 10px 20px;
   }
+  .bg-fitur .fitur-desc .fitur-content h1{
+    text-align: start;
+  }
+
+  .bg-fitur .fitur-desc .fitur-content p{
+  font-size: 20px;
+  }
   .bg-fitur .fitur-desc .fitur-content {
     padding-top: 0;
     margin-left: 15px ;
@@ -666,13 +669,11 @@ body {
   }
   .img-sm{
     width: 100%;
+    padding-left: 20px;
   }
   .bg-fitur .fitur-desc .fitur-content p{
     margin-top: 20px;
     text-align: start;
-  }
-  .bg-fitur .fitur-desc .line {
-    margin: 0 auto !important;
   }
   .bg-fitur .fitur-desc h1, .bg-fitur .fitur-desc p {
     text-align: center;
@@ -732,6 +733,13 @@ body {
   }
   .faq .judul br{
     display: none;
+  }
+  .bg-fitur .fitur-desc h1 {
+    font-size: 22px;
+    text-align: start;
+  }
+  .bg-fitur .line {
+    margin-left: 0px;
   }
   .faq .judul{
     font-size: 22px ;
@@ -821,6 +829,9 @@ body {
     width: 100% !important;
     margin: 0 auto;
   }
+  .bg-fitur .fitur-desc .fitur-content p{
+    font-size: 14px;
+    }
 }
 
 /* Landing Page CSS */
