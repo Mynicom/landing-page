@@ -646,10 +646,10 @@
             $(this).css({
                 "background":color
             })
-            if(progress==1){
+            if(progress<=8){
                 $(".price").html("<b>10rb</b>")
                 $(".month").html("<h1>1 bulan</h1>")
-            }else if(progress<=12){
+            }else if(progress<=16){
                 $(".price").html("<b>20rb</b>")
                 $(".month").html("<h1>2 bulan</h1>")
             }else if(progress<=24){
@@ -679,7 +679,7 @@
             }else if(progress<=95){
                 $(".price").html("<b>110rb</b>")
                 $(".month").html("<h1>11 bulan</h1>")
-            }else if(progress==100){
+            }else if(progress<=100){
                 $(".price").html("<b>120rb</b>")
                 $(".month").html("<h1>12 bulan</h1>")
             }

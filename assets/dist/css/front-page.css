@@ -720,6 +720,10 @@ body {
   .bg-tutor .card .card-body h2 {
     margin-bottom: 20px;
   }
+  .bg-harga .card-body-harga{
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -812,6 +816,10 @@ body {
   {
     font-size: 12px;
     width: 70%;
+  }
+  .bg-harga .card-body-harga{
+    width: 100% !important;
+    margin: 0 auto;
   }
 }
 
