@@ -570,7 +570,7 @@ body {
 .bg-footer {
   height: auto;
   padding: 50px 0 20px 0;
-  background: url("../../../../../assets/images/backgrounds/footer.svg");
+  background: url("../../../assets/images/backgrounds/footer.svg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -420px;
