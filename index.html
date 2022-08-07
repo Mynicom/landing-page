@@ -682,13 +682,57 @@
                 $(".month").html("<h1>12 bulan</h1>")
             }
         })
+
+        slider.on("touchMove",function(event){
+            var progress = $(this).val()
+            var color = "linear-gradient(90deg,#673AB7 "+progress+"% , rgba(255,255,255) "+progress+"%)"
+            $(this).css({
+                "background":color
+            })
+            if(progress<=8){
+                $(".price").html("<b>10rb</b>")
+                $(".month").html("<h1>1 bulan</h1>")
+            }else if(progress<=16){
+                $(".price").html("<b>20rb</b>")
+                $(".month").html("<h1>2 bulan</h1>")
+            }else if(progress<=24){
+                $(".price").html("<b>30rb</b>")
+                $(".month").html("<h1>3 bulan</h1>")
+            }else if(progress<=32){
+                $(".price").html("<b>40rb</b>")
+                $(".month").html("<h1>4 bulan</h1>")
+            }else if(progress<=40){
+                $(".price").html("<b>50rb</b>")
+                $(".month").html("<h1>5 bulan</h1>")
+            }else if(progress<=48){
+                $(".price").html("<b>60rb</b>")
+                $(".month").html("<h1>6 bulan</h1>")
+            }else if(progress<=57){
+                $(".price").html("<b>70rb</b>")
+                $(".month").html("<h1>7 bulan</h1>")
+            }else if(progress<=67){
+                $(".price").html("<b>80rb</b>")
+                $(".month").html("<h1>8 bulan</h1>")
+            }else if(progress<=75){
+                $(".price").html("<b>90rb</b>")
+                $(".month").html("<h1>9 bulan</h1>")
+            }else if(progress<=85){
+                $(".price").html("<b>100rb</b>")
+                $(".month").html("<h1>10 bulan</h1>")
+            }else if(progress<=95){
+                $(".price").html("<b>110rb</b>")
+                $(".month").html("<h1>11 bulan</h1>")
+            }else if(progress<=100){
+                $(".price").html("<b>120rb</b>")
+                $(".month").html("<h1>12 bulan</h1>")
+            }
+        })
         $(".btn-accordion").click(function(event){
             $(".accordion-custom").removeClass("mb-5")
             let show = $(this).closest(".accordion-custom").find('.show')
-            console.log(show) 
-                if(show.length<1) {
+            if(show.length<1) {
                     $(this).closest(".accordion-custom").addClass("mb-5")
-                }
+            }
     
         })
     </script>
