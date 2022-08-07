@@ -1,5 +1,10 @@
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+html,body{
+  scroll-behavior: smooth;
+  scroll-padding-top:100px;
+}
 /* BUTTONS */
 .btn-utama {
   -webkit-transition: all 0.4s ease-out 0s;
