@@ -69,7 +69,7 @@ html,body{
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: 'Poppins' !important;
 }
 
 /* Landing Page CSS */
