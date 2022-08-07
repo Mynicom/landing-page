@@ -849,6 +849,9 @@ body {
   .bg-fitur .fitur-desc .fitur-content p{
     font-size: 14px;
     }
+  .footer-desc br{
+    display: none;
+  }
 }
 
 /* Landing Page CSS */
